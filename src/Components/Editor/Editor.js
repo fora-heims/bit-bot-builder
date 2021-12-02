@@ -2,6 +2,18 @@ import './Editor.css';
 import React from 'react';
 
 export default function Editor(props) {
+  const handleLight = (e) => {
+    props.setLight(e.target.value);
+    props.setLightCount((prevState) => prevState + 1);
+  };
+  const handleMid = (e) => {
+    props.setMid(e.target.value);
+    props.setMidCount((prevState) => prevState + 1);
+  };
+  const handleDark = (e) => {
+    props.setDark(e.target.value);
+    props.setDarkCount((prevState) => prevState + 1);
+  };
   return (
     <div className="editor">
       <select value={props.light} onChange={handleLight}>
