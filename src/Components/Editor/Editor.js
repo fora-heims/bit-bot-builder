@@ -24,7 +24,7 @@ export default function Editor(props) {
         <label>
           Light
           <select value={props.light} onChange={handleLight}>
-            <option value="light-red">Red</option>
+            <option value="light-redd">Red</option>
             <option value="light-orange">Orange</option>
             <option value="light-yellow">Yellow</option>
             <option value="light-green">Green</option>
@@ -36,7 +36,7 @@ export default function Editor(props) {
         <label>
           Middle
           <select value={props.mid} onChange={handleMid}>
-            <option value="mid-red">Red</option>
+            <option value="mid-redd">Red</option>
             <option value="mid-orange">Orange</option>
             <option value="mid-yellow">Yellow</option>
             <option value="mid-green">Green</option>
