@@ -1,0 +1,11 @@
+footer {
+  background-color: #632a50dd;
+  color: #c2e812;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 0%;
+  width: stretch;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+}

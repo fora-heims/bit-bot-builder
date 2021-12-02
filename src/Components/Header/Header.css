@@ -1,0 +1,10 @@
+header {
+  background-color: #632a50dd;
+  color: #c2e812;
+  position: fixed;
+  top: 0%;
+  display: flex;
+  width: stretch;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+}
