@@ -23,7 +23,7 @@ export default function Editor(props) {
       <div className="selectors">
         <label>
           Light
-          <select value={props.light} onChange={handleLight}>
+          <select id="light" value={props.light} onChange={handleLight}>
             <option value="light-redd">Red</option>
             <option value="light-orange">Orange</option>
             <option value="light-yellow">Yellow</option>
