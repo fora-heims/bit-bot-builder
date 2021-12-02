@@ -63,7 +63,7 @@ export default function Editor(props) {
           What feelings can you identify within yourself while interacting with this image.
           <input type="text" value={props.feel} onChange={(e) => props.setFeel(e.target.value)} />
         </label>
-        <button onClick={handleFeelings}>Observe your feelings come and go</button>
+        <button onClick={handleFeelings}>Observe your feelings as they come and go</button>
       </div>
     </div>
   );
