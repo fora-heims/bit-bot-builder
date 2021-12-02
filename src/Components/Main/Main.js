@@ -8,9 +8,10 @@ export default function Main() {
   const [midCount, setMidCount] = useState(0);
   const [darkCount, setDarkCount] = useState(0);
   const [feelings, setFeelings] = useState([]);
-  const [light, setLight] = useState('red');
-  const [mid, setMid] = useState('red');
-  const [dark, setDark] = useState('red');
+  const [feel, setFeel] = useState('');
+  const [light, setLight] = useState('light-red');
+  const [mid, setMid] = useState('mid-red');
+  const [dark, setDark] = useState('dark-red');
 
   return (
     <main>
@@ -24,6 +25,8 @@ export default function Main() {
           setDarkCount,
           feelings,
           setFeelings,
+          feel,
+          setFeel,
           light,
           setLight,
           mid,
@@ -42,6 +45,8 @@ export default function Main() {
           setDarkCount,
           feelings,
           setFeelings,
+          feel,
+          setFeel,
           light,
           setLight,
           mid,
