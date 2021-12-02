@@ -48,7 +48,7 @@ export default function Editor(props) {
         <label>
           Dark
           <select value={props.dark} onChange={handleDark}>
-            <option value="dark-red">Red</option>
+            <option value="dark-redd">Red</option>
             <option value="dark-orange">Orange</option>
             <option value="dark-yellow">Yellow</option>
             <option value="dark-green">Green</option>

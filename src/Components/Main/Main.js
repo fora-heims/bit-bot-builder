@@ -11,7 +11,7 @@ export default function Main() {
   const [feel, setFeel] = useState('');
   const [light, setLight] = useState('light-red');
   const [mid, setMid] = useState('mid-red');
-  const [dark, setDark] = useState('dark-red');
+  const [dark, setDark] = useState('dark-redd');
 
   return (
     <main>
