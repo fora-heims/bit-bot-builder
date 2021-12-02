@@ -12,7 +12,7 @@ export default function Display(props) {
       <span>You have changed the light color {props.lightCount} times.</span>
       <span>You have changed the middle color {props.midCount} times.</span>
       <span>You have changed the dark color {props.darkCount} times.</span>
-      <span>The feelings I observed while interacting with this image:</span>
+      <span>words to describe the picture:</span>
       <div className="feelings">
         {props.feelings.map((feeling) => (
           <span key={feeling}>{feeling}</span>
