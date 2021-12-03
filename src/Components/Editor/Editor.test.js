@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import Display from './Display';
+import Editor from './Editor.js';
 
 test('renders the Display panel', () => {
   const container = render(
-    <Display
+    <Editor
       lightCount="5"
       midCount="3"
       darkCount="2"
